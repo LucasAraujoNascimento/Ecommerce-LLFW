@@ -1,0 +1,221 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.nav{
+    max-width: 100%;
+    padding: 5px 50px 20px 50px;
+    box-shadow: 10px 10px 10px #0000002c;
+}
+
+.logo a img{
+    width: 200px;
+    position: relative;
+    top: 40px;
+}
+
+.menu-lista{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+}
+
+.menu-lista li{
+    list-style: none;
+    margin-right: 40px;
+    padding: 5px; 
+    
+}
+
+.menu-lista li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.menu-lista-baixa li a:hover, .menu-lista li a:hover{
+    color: #0000001c;
+    font-weight: bold;
+    padding: 20px;
+}
+
+
+.menu-lista-baixa{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    padding-top: 20px;
+    border-top: 1px solid black;
+}
+
+.menu-lista-baixa li{
+    list-style: none;
+    padding: 10px 0px;
+}
+
+.menu-lista-baixa li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+
+
+/* Botao Entrar */
+
+.login-button {
+    float: right;
+}
+
+.login-button button {
+    border: none;
+    background-color: #212124;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button button:hover {
+    background-color: #acacacf1;
+}
+
+.login-button button a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+/* Linha Divisão */
+
+.linha-divisao {
+    border: none;
+    height: 2px;
+    background-color: #202020;
+    margin: 20px 0;
+}
+
+
+
+/* Footer */
+
+.site-footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+    position: static;
+    box-shadow: 10px 10px 10px #0000002c;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    width: 250px;
+    margin: 20px 0;
+}
+
+.footer-section h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #fff;
+}
+
+.footer-direitos{
+    background-color: white;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.footer-direitos p {
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+
+/*  Formulario  */
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.usuarios{
+    padding: 20px 0;
+}
+
+.usuarios table{
+    margin: auto;
+}
+
+table{
+	paddig:10px;
+}
+
+.container-carrinho {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+.botoes button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.botoes button:hover {
+    background-color: #555;
+}
